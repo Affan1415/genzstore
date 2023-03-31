@@ -19,10 +19,6 @@ import { EditAddressComponent } from './edit-address/edit-address.component';
 
 
 
-
-
-
-
 const routes: Routes = [
   { path: "", component:HomeComponent},
   { path: "product-single", component:ProductsingleComponent},
