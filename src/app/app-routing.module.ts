@@ -23,14 +23,14 @@ const routes: Routes = [
   { path: "", component:HomeComponent},
   { path: "product-single", component:ProductsingleComponent},
   { path: "cart", component:CartComponent},
-  { path: "ceckout", component:CheckoutComponent},
+  { path: "checkout", component:CheckoutComponent},
   { path: "shop", component:ShopComponent},
   { path: "dashboard", component:DashboardComponent},
   { path: "order", component:OrdersComponent},
   { path: "login", component:LoginComponent},
   { path: "signup", component:SignupComponent},
   { path: "forgot-password", component:ForgotPasswordComponent},
-  
+  { path: "profile-details", component:ProfileDetailsComponent},  
   { path: "address", component:AddressComponent},
   { path: "edit-address", component:EditAddressComponent}
 ];
