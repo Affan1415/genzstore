@@ -30,9 +30,9 @@ const routes: Routes = [
   { path: "signup", component:SignupComponent},
   { path: "forgot-password", component:ForgotPasswordComponent},
 
-=======
+
   { path: "profile-details", component:ProfileDetailsComponent},
->>>>>>> 05c9ca8f65c442c09614f208bbe9e7b3a91e8dee
+
   { path: "address", component:AddressComponent},
   { path: "edit-address", component:EditAddressComponent}
 ];
