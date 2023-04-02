@@ -18,7 +18,6 @@ import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 
 
-
 const routes: Routes = [
   { path: "", component:HomeComponent},
   { path: "product-single", component:ProductsingleComponent},
@@ -30,7 +29,10 @@ const routes: Routes = [
   { path: "login", component:LoginComponent},
   { path: "signup", component:SignupComponent},
   { path: "forgot-password", component:ForgotPasswordComponent},
-  { path: "profile-details", component:ProfileDetailsComponent},  
+
+=======
+  { path: "profile-details", component:ProfileDetailsComponent},
+>>>>>>> 05c9ca8f65c442c09614f208bbe9e7b3a91e8dee
   { path: "address", component:AddressComponent},
   { path: "edit-address", component:EditAddressComponent}
 ];
