@@ -19,6 +19,7 @@ import { ProfileDetailsComponent } from './profile-details/profile-details.compo
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { BlogComponent } from './blog/blog.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +38,7 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     ProfileDetailsComponent,
     AddressComponent,
     EditAddressComponent,
+    BlogComponent,
   ],
   imports: [
     BrowserModule,
