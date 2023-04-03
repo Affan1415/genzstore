@@ -16,7 +16,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { ProfileDetailsComponent } from './profile-details/profile-details.component';
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
-
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   { path: "", component:HomeComponent},
@@ -29,7 +29,11 @@ const routes: Routes = [
   { path: "login", component:LoginComponent},
   { path: "signup", component:SignupComponent},
   { path: "forgot-password", component:ForgotPasswordComponent},
+  { path: "app-blog", component:BlogComponent},
+
+
   { path: "profile-details", component:ProfileDetailsComponent},
+
   { path: "address", component:AddressComponent},
   { path: "edit-address", component:EditAddressComponent}
 ];
