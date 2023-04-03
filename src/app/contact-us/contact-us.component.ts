@@ -19,6 +19,6 @@ export class ContactUsComponent {
 
   onSubmit() {
     console.log(this.contactForm.value);
-    // Add your contact form submission logic here
+    // Add contact form submission logic here
   }
 }
