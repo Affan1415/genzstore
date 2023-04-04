@@ -1,1 +1,13 @@
-<p>trackmyorder works!</p>
+<div class="container">
+    <h2>Track My Order</h2>
+    <form (submit)="onSubmit()">
+        <div class="form-group">
+            <label for="tracking-id">Enter Tracking ID:</label>
+          <!--  <input type="text" class="form-control" id="tracking-id" required [(ngModel).hasError]="trackingId" name="trackingId">-->
+        </div>
+        <button type="submit" class="btn btn-primary">Track Order</button>
+    </form>
+    <div *ngIf="showResult" class="order-status">
+        <p>Your order status is: {{ orderStatus }}</p>
+    </div>
+</div>

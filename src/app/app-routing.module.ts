@@ -17,6 +17,11 @@ import { ProfileDetailsComponent } from './profile-details/profile-details.compo
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 import { BlogComponent } from './blog/blog.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
+import { TrackMyOrderComponent } from './trackmyorder/trackmyorder.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 const routes: Routes = [
   { path: "", component:HomeComponent},
@@ -30,6 +35,10 @@ const routes: Routes = [
   { path: "signup", component:SignupComponent},
   { path: "forgot-password", component:ForgotPasswordComponent},
   { path: "app-blog", component:BlogComponent},
+  { path: "app-faqs", component:FaqsComponent},
+  { path: "trackmyorder", component:TrackMyOrderComponent},
+  { path: "app-aboutus", component:AboutusComponent},
+  { path: "app-contact-us", component:ContactUsComponent},
 
 
   { path: "profile-details", component:ProfileDetailsComponent},

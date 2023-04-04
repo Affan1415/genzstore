@@ -14,7 +14,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" routerLink="app-aboutus">About Us</a>
                 </li>
                 <!-- Pages -->
                 <li class="nav-item dropdown dropdown-slide">
@@ -23,10 +23,10 @@
                         Pages
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                        <li><a href="#">About Us</a></li>
+                        <li><a routerLink="app-aboutus">About Us</a></li>
                         <li><a routerLink="app-blog">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a routerLink = "app-contact-us">Contact</a></li>
+                        <li><a routerLink="app-faqs">FAQ</a></li>
                     </ul>
                 </li><!-- /Pages -->
                 <!-- / Blog -->
@@ -41,6 +41,7 @@
                         <li><a routerLink="/product-single">Product Details</a></li>
                         <li><a routerLink="/checkout">Checkout</a></li>
                         <li><a routerLink="/cart">Cart</a></li>
+                        <li><a routerLink="/trackmyorder">Track My Order</a></li>
                     </ul>
                 </li><!-- / Blog -->
 
@@ -115,7 +116,8 @@
                     </div>
                 </div>
             </li>
-            <li class="list-inline-item"><a href="#"><i class="tf-ion-ios-person mr-3"></i></a></li>
+            <li class="list-inline-item">
+                <a routerLink="/profile-details"><i class="tf-ion-ios-person mr-3"></i></a></li>
         </ul>
     </div>
 </nav>
