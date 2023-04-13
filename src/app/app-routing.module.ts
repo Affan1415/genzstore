@@ -1,3 +1,4 @@
+import { NewsletterComponent } from './newsletter/newsletter.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -39,6 +40,7 @@ const routes: Routes = [
   { path: "trackmyorder", component:TrackMyOrderComponent},
   { path: "app-aboutus", component:AboutusComponent},
   { path: "app-contact-us", component:ContactUsComponent},
+  {path:"newsletter",component:NewsletterComponent},
 
 
   { path: "profile-details", component:ProfileDetailsComponent},

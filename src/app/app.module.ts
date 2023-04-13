@@ -26,6 +26,11 @@ import { TrackMyOrderComponent } from './trackmyorder/trackmyorder.component';
 import { FaqsComponent } from './faqs/faqs.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { NgForm } from '@angular/forms';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FormsModule } from '@angular/forms';
+
+
+
 @NgModule({
   declarations: [
     TrackMyOrderComponent,
@@ -49,6 +54,7 @@ import { NgForm } from '@angular/forms';
     ContactUsComponent,
     FaqsComponent,
     AboutusComponent,
+    NewsletterComponent,
     
   ],
   imports: [
@@ -56,6 +62,7 @@ import { NgForm } from '@angular/forms';
     AppRoutingModule,
     SlickCarouselModule,
     ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
