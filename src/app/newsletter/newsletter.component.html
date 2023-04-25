@@ -1,0 +1,11 @@
+<div class="newsletter">
+    <h2>Newsletter</h2>
+    <form (ngSubmit)="sendNewsletter()" #newsletterForm="ngForm">
+        <p>To get amzing news ang offers subscribe to our newsletter.</p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" [(ngModel)]="email" required />
+        <button type="submit" [disabled]="!newsletterForm.form.valid">Submit</button>
+    </form>
+    <div *ngIf="emailSent" class="success-msg">Email has been sent successfully!</div>
+</div>
+<script src="newsletter.component.ts"></script>
