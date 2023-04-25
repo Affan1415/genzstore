@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -19,8 +20,20 @@ import { ProfileDetailsComponent } from './profile-details/profile-details.compo
 import { AddressComponent } from './address/address.component';
 import { EditAddressComponent } from './edit-address/edit-address.component';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { BlogComponent } from './blog/blog.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { TrackMyOrderComponent } from './trackmyorder/trackmyorder.component';
+import { FaqsComponent } from './faqs/faqs.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { NgForm } from '@angular/forms';
+import { NewsletterComponent } from './newsletter/newsletter.component';
+import { FormsModule } from '@angular/forms';
+
+
+
 @NgModule({
   declarations: [
+    TrackMyOrderComponent,
     AppComponent,
     HeaderComponent,
     FooterComponent,
@@ -37,11 +50,19 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     ProfileDetailsComponent,
     AddressComponent,
     EditAddressComponent,
+    BlogComponent,
+    ContactUsComponent,
+    FaqsComponent,
+    AboutusComponent,
+    NewsletterComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SlickCarouselModule
+    SlickCarouselModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
