@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -28,8 +29,10 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { NgForm } from '@angular/forms';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FormsModule } from '@angular/forms';
-import { ChartModule } from 'angular2-chartjs';
 
+import { NgChartsModule } from 'ng2-charts';
+import { ChartModule } from 'angular2-chartjs';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -54,9 +57,10 @@ import { ChartModule } from 'angular2-chartjs';
     ContactUsComponent,
     FaqsComponent,
     AboutusComponent,
+    
+
     NewsletterComponent,
-    
-    
+
   ],
   imports: [
     BrowserModule,
@@ -64,8 +68,12 @@ import { ChartModule } from 'angular2-chartjs';
     SlickCarouselModule,
     ReactiveFormsModule,
     FormsModule,
+    CommonModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
