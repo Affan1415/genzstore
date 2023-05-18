@@ -28,7 +28,7 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { NgForm } from '@angular/forms';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FormsModule } from '@angular/forms';
-
+import { ChartModule } from 'angular2-chartjs';
 
 
 @NgModule({
@@ -56,13 +56,14 @@ import { FormsModule } from '@angular/forms';
     AboutusComponent,
     NewsletterComponent,
     
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SlickCarouselModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
