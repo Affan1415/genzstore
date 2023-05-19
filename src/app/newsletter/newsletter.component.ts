@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
 export class NewsletterComponent {
   email: string = '';
   emailSent: boolean = false;
-  newsletterForm: any; 
+  newsletterForm: any; // Define newsletterForm property
 
   sendNewsletter(): void {
     // Simulated email sending logic with a timeout
@@ -20,6 +20,8 @@ export class NewsletterComponent {
     setTimeout(() => {
       // Check if the email is valid before sending
       if (this.validateEmail(this.email)) {
+        // Actual email sending logic here
+        // Replace the alert with your actual email sending logic
         alert(`Sending newsletter to: ${this.email}`);
         this.emailSent = true; // Set the emailSent flag to true
       } else {

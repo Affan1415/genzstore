@@ -29,7 +29,6 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { NgForm } from '@angular/forms';
 import { NewsletterComponent } from './newsletter/newsletter.component';
 import { FormsModule } from '@angular/forms';
-
 import { NgChartsModule } from 'ng2-charts';
 import { ChartModule } from 'angular2-chartjs';
 import { HttpClientModule } from '@angular/common/http';
@@ -58,9 +57,7 @@ import { HttpClientModule } from '@angular/common/http';
     FaqsComponent,
     AboutusComponent,
     
-
     NewsletterComponent,
-
   ],
   imports: [
     BrowserModule,
@@ -70,7 +67,6 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     CommonModule,
     HttpClientModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
